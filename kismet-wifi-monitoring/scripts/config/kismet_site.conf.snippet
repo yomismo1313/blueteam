@@ -1,0 +1,29 @@
+# ==============================================================
+# kismet_site.conf.snippet
+# --------------------------------------------------------------
+# Fragmento de configuración para /etc/kismet/kismet_site.conf
+# (o kismet.conf), ajustado para este laboratorio.
+# ==============================================================
+
+# Desactiva los plugins si dan problemas de carga
+allowplugins=false
+
+# No anunciar el servidor Kismet al exterior por broadcast;
+# solo accesible en localhost
+server_announce=false
+
+# Mantener la captura remota restringida al loopback local
+remote_capture_enabled=true
+remote_capture_listen=127.0.0.1
+remote_capture_port=3501
+
+# Directorio donde se guardan los logs de capturas
+logprefix=/home/kali/kismet/kismet_logs
+
+# Interfaz de captura (sin necesidad de ejecutar Kismet como root,
+# gracias al grupo "kismet" añadido al usuario)
+source=wlan0
+
+# Credenciales de acceso a la interfaz web (http://localhost:2501)
+httpd_username=kismet
+httpd_password=passw0rd
