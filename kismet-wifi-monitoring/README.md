@@ -135,7 +135,7 @@ El dashboard se organiza en: panel superior de navegación, columna izquierda co
 ## Uso rápido
 
 ```bash
-git clone <url-de-este-repositorio>
+git clone https://github.com/yomismo1313/blueteam/edit/main/kismet-wifi-monitoring
 cd kismet-wifi-monitoring/scripts
 chmod +x *.sh
 ./setup-completo.sh
