@@ -189,7 +189,7 @@ Con `660`, Sara (propietaria) y Tom (grupo `normativa`) tienen lectura y escritu
 ## Uso rápido
 
 ```bash
-git clone <url-de-este-repositorio>
+git clone https://github.com/yomismo1313/blueteam/edit/main/linux-users-groups-permissions
 cd linux-users-groups-permissions/scripts
 chmod +x *.sh
 ./setup-completo.sh
