@@ -278,7 +278,7 @@ Al no disponer de un switch configurable con puerto espejo, se optó por esta me
 ## Uso rápido
 
 ```bash
-git clone <url-de-este-repositorio>
+git clone https://github.com/yomismo1313/blueteam/edit/main/tcpdump-snort-ids
 cd tcpdump-snort-ids/scripts
 chmod +x *.sh
 ./setup-completo.sh
